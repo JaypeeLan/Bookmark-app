@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookmark App</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="data:image/png;base64,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"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Open modal -->
+    <h1 id="show-modal">Add bookmark</h1>
+
+    <!-- --------------- BOOKMARKS -------------->
+    <div class="container" id="bookmarks-container">
+      <div class="item">
+        <i
+          class="fas fa-times"
+          id="delete-bookmark"
+          title="delete bookmark"
+        ></i>
+        <div class="name">
+          <img
+          src="https://s2.googleusercontent.com/s2/favicons?domain=www.jacinto.design
+          alt="favicon" />
+          <a href="" target="_blank">Hello</a>
+        </div>
+      </div>
+      <div class="item">
+        <i
+          class="fas fa-times"
+          id="delete-bookmark"
+          title="delete bookmark"
+        ></i>
+        <div class="name">
+          <img
+          src="https://s2.googleusercontent.com/s2/favicons?domain=www.jacinto.design
+          alt="favicon" />
+          <a href="" target="_blank">Hello</a>
+        </div>
+      </div>
+      <div class="item">
+        <i
+          class="fas fa-times"
+          id="delete-bookmark"
+          title="delete bookmark"
+        ></i>
+        <div class="name">
+          <img
+          src="https://s2.googleusercontent.com/s2/favicons?domain=www.jacinto.design
+          alt="favicon" />
+          <a href="" target="_blank">Hello</a>
+        </div>
+      </div>
+      <div class="item">
+        <i
+          class="fas fa-times"
+          id="delete-bookmark"
+          title="delete bookmark"
+        ></i>
+        <div class="name">
+          <img
+          src="https://s2.googleusercontent.com/s2/favicons?domain=www.jacinto.design
+          alt="favicon" />
+          <a href="" target="_blank">Hello</a>
+        </div>
+      </div>
+      <div class="item">
+        <i
+          class="fas fa-times"
+          id="delete-bookmark"
+          title="delete bookmark"
+        ></i>
+        <div class="name">
+          <img
+          src="https://s2.googleusercontent.com/s2/favicons?domain=www.jacinto.design
+          alt="favicon" />
+          <a href="" target="_blank">Hello</a>
+        </div>
+      </div>
+    </div>
+    <!-- ----- modal ----- -->
+
+    <div class="modal-container show-modal" id="modal">
+      <div class="modal">
+        <i class="fas fa-times close-button" id="close-modal"></i>
+        <div class="modal-header">
+          <h3>Add bookmark</h3>
+        </div>
+        <div class="modal-content">
+          <form id="bookmark-form">
+            <div class="form-group">
+              <label for="website-name" class="form-label">Website Name</label>
+              <input type="text" class="form-input" id="website-name" />
+            </div>
+            <div class="form-group">
+              <label for="website-url" class="form-label">Website URL</label>
+              <input type="text" class="form-input" id="website-url" />
+            </div>
+            <button type="submit">save</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
